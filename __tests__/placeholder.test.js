@@ -1,0 +1,1 @@
+import Placeholder from "../src/placeholder";
