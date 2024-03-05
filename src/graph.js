@@ -16,7 +16,10 @@ export default class Graph {
     let set2 = this.adjacencyList.get(node2);
     set1.add(node2);
     set2.add(node1);
-    //same as this.adjacencyList.get(node1).add(node2);                                    
+    //same as this.adjacencyList.get(node1).add(node2);  
+  }
+  hasEdge(node1, node2) {
+    return false;
   }
 
 
