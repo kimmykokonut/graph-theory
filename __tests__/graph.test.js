@@ -38,6 +38,14 @@ describe('Graph', () => {
     graph.addNode("Jasmine");
     graph.addNode("Ada");
     expect(graph.hasEdge("Jasmine", "Ada")).toEqual(false);
-  })
+  });
+
+  test('remove an edge between two nodes', () => {
+    graph.addNode("Jasmine");
+    graph.addNode("Ada");
+    graph.createEdge("Jasmine", "Ada");
+    graph.removeEdge("Jasmine", "Ada");
+    expect(graph.hasEdge("Ada", "Jasmine")).toEqual(false);
+  });
 
 });

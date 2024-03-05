@@ -24,6 +24,10 @@ export default class Graph {
     }
     return false;
   }
+  removeEdge(node1, node2) {
+    this.adjacencyList.get(node1).delete(node2);
+    this.adjacencyList.get(node2).delete(node1);
+  }
 
 
 }
