@@ -40,6 +40,24 @@ export default class Graph {
     if ((!this.adjacencyList.has(startingNode)) || (!this.adjacencyList.has(targetNode))) {
       return false;
     }
+    let stack = [startingNode]; //create stack w/el sNode
+    let traversedNodes = new Set(); //for flagging nodes. set b/c fast, no dupes, set uses hash table under hood
+    while (stack.length) {
+      const currentNode = stack.shift();
+      if (currentNode === targetNode) {
+        return true;
+      } else {
+        traversedNodes.add(currentNode); //flag node
+        const adjList = this.adjacencyList.get(currentNode);
+        adjList.forEach(function(node) {
+          if (!traversedNodes.has(node)) {
+            stack.unshift(node);
+          }
+        });
+      }
+
+    }
   }
+
 
 }
