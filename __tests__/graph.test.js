@@ -48,7 +48,7 @@ describe('Graph', () => {
     expect(graph.hasEdge("Ada", "Jasmine")).toEqual(false);
   });
 
-  test('should delete a ndoe and all of its adjacent nodes', () => {
+  test('should delete a node and all of its adjacent nodes', () => {
     graph.addNode("Ada");
     graph.addNode("Jasmine");
     graph.addNode("Lydia");

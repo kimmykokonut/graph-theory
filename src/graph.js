@@ -36,5 +36,10 @@ export default class Graph {
       this.adjacencyList.delete(name);
     }
   }
+  depthFirstReachable(startingNode, targetNode) {
+    if ((!this.adjacencyList.has(startingNode)) || (!this.adjacencyList.has(targetNode))) {
+      return false;
+    }
+  }
 
 }

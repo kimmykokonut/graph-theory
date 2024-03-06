@@ -1,6 +1,8 @@
-# This is a basic test setup for Epicodus Code School for the computer science unit
+# Learning Graph Theory with Epicodus
 
-### Goal: build small logic-based applications to try out new concepts. These applications will not have a UI. Instead, we will use a test-driven environment with JavaScript to build out these applications.
+### Goal: build a 'social' graph, where nodes and edges can be created
+* Utilize Map and Set
+* Use TDD Jest Testing
 
 ### Setup:
 * Make a new repo with this template.

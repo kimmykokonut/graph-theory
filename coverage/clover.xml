@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1709680153701" clover="3.2.0">
-  <project timestamp="1709680153701" name="All files">
-    <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="5" methods="8" coveredmethods="8" elements="32" coveredelements="31" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
+<coverage generated="1709747370782" clover="3.2.0">
+  <project timestamp="1709747370782" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="10" coveredconditionals="8" methods="9" coveredmethods="9" elements="39" coveredelements="37" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
     <file name="graph.js" path="/Users/kimmykokonut/epicodus/computer-science/graph-theory/src/graph.js">
-      <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="5" methods="8" coveredmethods="8"/>
-      <line num="3" count="9" type="stmt"/>
-      <line num="6" count="11" type="stmt"/>
+      <metrics statements="20" coveredstatements="20" conditionals="10" coveredconditionals="8" methods="9" coveredmethods="9"/>
+      <line num="3" count="10" type="stmt"/>
+      <line num="6" count="19" type="stmt"/>
       <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
       <line num="10" count="1" type="stmt"/>
       <line num="12" count="2" type="stmt"/>
-      <line num="15" count="4" type="stmt"/>
-      <line num="16" count="4" type="stmt"/>
-      <line num="17" count="4" type="stmt"/>
-      <line num="18" count="4" type="stmt"/>
+      <line num="15" count="11" type="stmt"/>
+      <line num="16" count="11" type="stmt"/>
+      <line num="17" count="11" type="stmt"/>
+      <line num="18" count="11" type="stmt"/>
       <line num="22" count="5" type="cond" truecount="2" falsecount="0"/>
       <line num="23" count="1" type="stmt"/>
       <line num="25" count="4" type="stmt"/>
@@ -22,6 +22,8 @@
       <line num="33" count="1" type="stmt"/>
       <line num="34" count="2" type="stmt"/>
       <line num="36" count="1" type="stmt"/>
+      <line num="40" count="2" type="cond" truecount="3" falsecount="1"/>
+      <line num="41" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>
