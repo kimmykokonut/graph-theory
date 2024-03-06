@@ -51,7 +51,29 @@ export default class Graph {
         const adjList = this.adjacencyList.get(currentNode);
         adjList.forEach(function(node) {
           if (!traversedNodes.has(node)) {
-            stack.unshift(node);
+            stack.unshift(node); //add to top of stack (LIFO)
+          }
+        });
+      }
+    }
+    return false;
+  }
+  breadthFirstReachable(startingNode, targetNode) {
+    if ((!this.adjacencyList.has(startingNode)) || (!this.adjacencyList.has(targetNode))) { //this part has 0(1) time
+      return false;
+    }
+    let queue = [startingNode];
+    let traversedNodes = new Set();
+    while (queue.length) {
+      const currentNode = queue.shift();
+      if (currentNode === targetNode) {
+        return true;
+      } else {
+        traversedNodes.add(currentNode);
+        const adjList = this.adjacencyList.get(currentNode);
+        adjList.forEach(function(node) {
+          if (!traversedNodes.has(node)) {
+            queue.push(node); //new node added to End FIFO
           }
         });
       }
