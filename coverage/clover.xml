@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1709748225028" clover="3.2.0">
-  <project timestamp="1709748225028" name="All files">
-    <metrics statements="31" coveredstatements="31" conditionals="14" coveredconditionals="13" methods="10" coveredmethods="10" elements="55" coveredelements="54" complexity="0" loc="31" ncloc="31" packages="1" files="1" classes="1"/>
+<coverage generated="1709748349973" clover="3.2.0">
+  <project timestamp="1709748349973" name="All files">
+    <metrics statements="32" coveredstatements="31" conditionals="14" coveredconditionals="13" methods="10" coveredmethods="10" elements="56" coveredelements="54" complexity="0" loc="32" ncloc="32" packages="1" files="1" classes="1"/>
     <file name="graph.js" path="/Users/kimmykokonut/epicodus/computer-science/graph-theory/src/graph.js">
-      <metrics statements="31" coveredstatements="31" conditionals="14" coveredconditionals="13" methods="10" coveredmethods="10"/>
+      <metrics statements="32" coveredstatements="31" conditionals="14" coveredconditionals="13" methods="10" coveredmethods="10"/>
       <line num="3" count="10" type="stmt"/>
       <line num="6" count="19" type="stmt"/>
       <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
@@ -22,8 +22,8 @@
       <line num="33" count="1" type="stmt"/>
       <line num="34" count="2" type="stmt"/>
       <line num="36" count="1" type="stmt"/>
-      <line num="40" count="3" type="cond" truecount="4" falsecount="0"/>
-      <line num="41" count="2" type="stmt"/>
+      <line num="40" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="41" count="3" type="stmt"/>
       <line num="43" count="1" type="stmt"/>
       <line num="44" count="1" type="stmt"/>
       <line num="45" count="1" type="stmt"/>
@@ -35,6 +35,7 @@
       <line num="52" count="4" type="stmt"/>
       <line num="53" count="8" type="cond" truecount="2" falsecount="0"/>
       <line num="54" count="5" type="stmt"/>
+      <line num="59" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>

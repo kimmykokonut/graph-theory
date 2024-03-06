@@ -55,8 +55,8 @@ export default class Graph {
           }
         });
       }
-
     }
+    return false;
   }
 
 
